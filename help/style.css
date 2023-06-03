@@ -1,0 +1,37 @@
+.burgers {
+    border: solid 3px black ;
+    display: block;
+    width: 700px;
+    margin: auto;
+}
+.burger {
+    margin: 20px;
+    border: solid 3px red;
+    height: 140px;
+    display: inline-flex;
+    width: 654px;
+    justify-content: space-between;
+}
+
+
+.burger .product-image {
+    height: 140px;
+}
+
+.burger .product-name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.burger .price {
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: right;
+}
